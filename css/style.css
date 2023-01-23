@@ -89,6 +89,33 @@ header .info-inner{
     background-color: #255EE920;
     width: 800px;
     height: 300px;
+    /* debug */
+}
+/* /Header */
+
+/* Main */
+main .chat-wrapper {
+    background-color: #ffff0020;
+    height: 700px;
+    /* debug */
+
+    /* flex */
+    display: flex;
 }
 
-/* /Header */
+main .chat-wrapper .chat-img {
+    background-color: #ffa50020;
+    width: 300px;
+    /* debug */
+
+    flex-grow: 3;
+}
+
+main .chat-wrapper .chat-info {
+    background-color: #ff450020;
+    width: 300px;
+    /* debug */
+
+    flex-grow: 2;
+}
+/* /Main */

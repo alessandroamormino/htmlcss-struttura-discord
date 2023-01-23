@@ -1,0 +1,57 @@
+/* Header */
+/* Nav */
+nav .nav-inner{
+    background-color: #ff000020;
+    height: 80px;
+    /* debug */
+
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* flex */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#logo{
+    background-color: #00800060;
+    width: 100px;
+    height: 80px;
+    /* debug */
+}
+
+#links{
+    /* flex */
+    display: flex;
+    align-items: stretch;
+}
+
+#links ul {
+    list-style-type: none;
+
+    /* flex */
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 30px;
+}
+
+#links ul li {
+    width: 60px;
+    height: 30px;
+    background-color: #00800060;
+    /* debug */
+
+}
+
+
+#login{
+    background-color: #00800060;
+    width: 100px;
+    height: 80px;
+    /* debug */
+}
+/* /Nav */
+/* /Header */

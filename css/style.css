@@ -141,4 +141,9 @@ main section .video-wrapper .video-img{
     background-color: #5d00b420;
     height: 700px;
 }
+
+main section .download{
+    background-color: #07f16520;
+    height: 300px;
+}
 /* /Main */

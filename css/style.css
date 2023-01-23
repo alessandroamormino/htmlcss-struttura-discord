@@ -11,11 +11,22 @@ header{
     /* debug */
 }
 
+.-btn{
+    /* spengo la classe con il '-' per non farlo visualizzare nel layout */
+    border-radius: 40px;
+    padding: 7px 16px;
+}
+
+.-lightpurple{
+    /* spengo la classe con il '-' per non farlo visualizzare nel layout */
+    background-color: #7289DA;
+}
+
 /* Nav */
 
 nav{
-    /* imposto al 20% per debud dovrà essere al 100% */
-    background-color: #255EE920;
+    /* imposto al 40% per debud dovrà essere al 100% */
+    background-color: #255EE940;
     /* debug */
 }
 
@@ -135,15 +146,62 @@ main section .video-wrapper {
 main section .video-wrapper .video-info{
     background-color: #d30eed20;
     height: 300px;
+    /* debug */
 }
 
 main section .video-wrapper .video-img{
     background-color: #5d00b420;
     height: 700px;
+    /* debug */
 }
 
 main section .download{
     background-color: #07f16520;
     height: 300px;
+    /* debug */
 }
 /* /Main */
+
+/* Footer */
+footer .footer-wrapper{
+    background-color: #23272A20;
+    height: 650px;
+    /* debug */
+}
+
+footer .footer-wrapper .footer-links{
+    height: 550px;
+    /* debug */
+
+    /* flex */
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.footer-links .footer-links-inner {
+    display: flex;
+}
+
+.footer-links .footer-links-inner .social{
+    width: 300px;
+    background-color: #80808020;
+}
+
+.footer-links .footer-links-inner .page-links{
+    width: 900px;
+    background-color: #80808020;
+
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links .footer-links-inner .page-links ul{
+    background-color: #0015d030;
+    width: 115px;
+}
+
+
+
+/* /Footer */

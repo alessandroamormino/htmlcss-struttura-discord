@@ -1,5 +1,11 @@
 /* Header */
 
+.centered{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header{
     height: 580px;
     /* debug */
@@ -17,10 +23,6 @@ nav .nav-inner{
     background-color: #ff000020;
     height: 80px;
     /* debug */
-
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
 
     /* flex */
     display: flex;
@@ -94,8 +96,9 @@ header .info-inner{
 /* /Header */
 
 /* Main */
-main .chat-wrapper {
-    background-color: #ffff0020;
+
+main section .chat-wrapper {
+    /* background-color: #ffff0020; */
     height: 700px;
     /* debug */
 
@@ -103,7 +106,7 @@ main .chat-wrapper {
     display: flex;
 }
 
-main .chat-wrapper .chat-img {
+main section .chat-wrapper .chat-img {
     background-color: #ffa50020;
     width: 300px;
     /* debug */
@@ -111,11 +114,31 @@ main .chat-wrapper .chat-img {
     flex-grow: 3;
 }
 
-main .chat-wrapper .chat-info {
+main section .chat-wrapper .chat-info {
     background-color: #ff450020;
     width: 300px;
     /* debug */
 
     flex-grow: 2;
+}
+
+main section .video-wrapper {
+    /* background-color: #ee82ee20; */
+    height: 1000px;
+    /* debug */
+
+    /* flex */
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main section .video-wrapper .video-info{
+    background-color: #d30eed20;
+    height: 300px;
+}
+
+main section .video-wrapper .video-img{
+    background-color: #5d00b420;
+    height: 700px;
 }
 /* /Main */

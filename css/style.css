@@ -163,6 +163,11 @@ main section .download{
 /* /Main */
 
 /* Footer */
+
+footer{
+    background-color: #23272A20;
+}
+
 footer .footer-wrapper{
     background-color: #23272A20;
     height: 650px;
@@ -185,7 +190,7 @@ footer .footer-wrapper .footer-links{
 
 .footer-links .footer-links-inner .social{
     width: 300px;
-    background-color: #80808020;
+    background-color: #0015d030;
 }
 
 .footer-links .footer-links-inner .page-links{
@@ -199,9 +204,28 @@ footer .footer-wrapper .footer-links{
 
 .footer-links .footer-links-inner .page-links ul{
     background-color: #0015d030;
-    width: 115px;
+    width: 100px;
 }
 
+footer .footer-wrapper .footer-sign-up{
+    height: 100px;
+    /* debug */
 
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-sign-up .footer-logo{
+    background-color: #19520020;
+    width: 100px;
+    height: 50px;
+}
+
+.footer-sign-up .footer-btn{
+    background-color: #19520020;
+    height: 50px;
+    width: 100px;
+}
 
 /* /Footer */

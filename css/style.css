@@ -1,5 +1,18 @@
 /* Header */
+
+header{
+    height: 580px;
+    /* debug */
+}
+
 /* Nav */
+
+nav{
+    /* imposto al 20% per debud dovrà essere al 100% */
+    background-color: #255EE920;
+    /* debug */
+}
+
 nav .nav-inner{
     background-color: #ff000020;
     height: 80px;
@@ -54,4 +67,28 @@ nav .nav-inner{
     /* debug */
 }
 /* /Nav */
+
+header .info-wrapper{
+    height: 500px;
+    background-color: #255EE920;
+    /* debug */
+
+    /* qui ci andrà l'immagine di sfondo */
+    /* background-image: url();
+    background-size: cover;
+    background-position: center; */
+
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .info-inner{
+    background-color: #255EE920;
+    width: 800px;
+    height: 300px;
+}
+
 /* /Header */

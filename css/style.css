@@ -119,7 +119,7 @@ main section .chat-wrapper {
 
 main section .chat-wrapper .chat-img {
     background-color: #ffa50020;
-    width: 300px;
+    /* width: 300px; */
     /* debug */
 
     flex-grow: 3;
@@ -127,7 +127,7 @@ main section .chat-wrapper .chat-img {
 
 main section .chat-wrapper .chat-info {
     background-color: #ff450020;
-    width: 300px;
+    /* width: 300px; */
     /* debug */
 
     flex-grow: 2;
